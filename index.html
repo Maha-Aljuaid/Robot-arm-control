@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="test.css"/>
+    <title>Robot Control Panel</title>
+  </head>
+  <body>
+
+      <!--محرك 1-->
+      <input type="range" id="rangeInput" name="rangeInput"
+             min="0" max="180" value="0" oninput="this.nextElementSibling.value = this.value">
+             <output id="textInput1" value="">0</output>
+             <span class="slider-reset">محرك 1</span>
+
+
+    <!--محرك 2-->
+  <div>
+    <input type="range" id="rangeInput" name="rangeInput"
+           min="0" max="180" value="0" oninput="this.nextElementSibling.value = this.value">
+           <output id="textInput2" value="">0</output>
+           <span class="slider-reset">محرك 2</span>
+    </div>
+
+    <!--محرك 3-->
+    <div>
+      <input type="range" id="rangeInput" name="rangeInput"
+             min="0" max="180" value="0" oninput="this.nextElementSibling.value = this.value">
+             <output id="textInput3" value="">0</output>
+             <span class="slider-reset">محرك 3</span>
+      </div>
+
+      <!--محرك 4-->
+      <div>
+        <input type="range" id="rangeInput" name="rangeInput"
+               min="0" max="180" value="0" oninput="this.nextElementSibling.value = this.value">
+               <output id="textInput4" value="">0</output>
+               <span class="slider-reset">محرك 4</span>
+        </div>
+
+        <!--محرك 5-->
+        <div>
+          <input type="range" id="rangeInput" name="rangeInput"
+                 min="0" max="180" value="0" oninput="this.nextElementSibling.value = this.value">
+                 <output id="textInput5" value="">0</output>
+                 <span class="slider-reset">محرك 5</span>
+          </div>
+
+          <!--محرك 6-->
+          <div>
+            <input type="range" id="rangeInput" name="rangeInput"
+                   min="0" max="180" value="0" oninput="this.nextElementSibling.value = this.value">
+                   <output id="textInput6" value="">0</output>
+                   <span class="slider-reset">محرك 6</span>
+          </div>
+      <form>
+        <div>
+          <input type="submit" value="حفظ">
+          <input type="submit" value="تشغيل">
+        </div>
+    </form>
+
+
+
+  </body>
+</html>
