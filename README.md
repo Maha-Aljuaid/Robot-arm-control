@@ -1,2 +1,2 @@
 # Robot-arm-control
-This repository about design the robot arm control interface and create database for it.
+This repository about design the robot arm control interface using html, css and create database for it.
